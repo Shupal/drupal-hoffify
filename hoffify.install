@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Hoffify install file.
+ */
+
+
+/**
+ * Implements hook_install().
+ */
+function hoffify_install() {
+
+  drupal_set_message(st('Hoffify has been installed successfully. Visit www.hoffify.co.uk for more happiness.'
+  ));
+}
