@@ -16,9 +16,11 @@ hoffify_add = function() {
     div.style.top = height;
     div.style.left = Math.random()*90 + '%';
     div.style.zIndex = 10;
+    div.onclick = hoffify_add;
     var img = document.createElement('img');
     img.setAttribute('src',file);
     var body = document.getElementsByTagName('body')[0];
     body.appendChild(div);
     div.appendChild(img);
 }
+
