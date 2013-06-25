@@ -1,9 +1,9 @@
 ============================================================================
 SUMMARY
 ============================================================================
-Cornify blocks
+Hoffify
 
-This module provides three different cornify blocks.
+This module provides one hoffify block.
 
 ============================================================================
 REQUIREMENTS
@@ -21,5 +21,5 @@ Configuration
   No configuration needed.
 
 Usage
-  You can simply add the blocks at your favored regions.
+  You can simply add the block at your favored regions.
   After that click on the pictures for happiness.
